@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DULCEDO - Full-service talent management agency with teams and offices in Los Angeles, New York City, Miami, Toronto and Montreal.">
+  <title>DULCEDO® | Talent Management Agency</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <span class="loader-text">DULCEDO</span>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="cursor"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-left">
+      <a href="#" id="nav-talents">Talents</a>
+      <a href="#" id="nav-models">Models</a>
+      <a href="#" id="nav-agency">Agency</a>
+      <a href="#" id="nav-blog">Blog</a>
+      <svg class="nav-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+    </div>
+    <a href="#" class="nav-logo" id="nav-logo">DULCEDO</a>
+    <div class="nav-right">
+      <a href="#" id="nav-contact">Contact</a>
+      <span>My Cast (0)</span>
+      <span class="nav-plus">+</span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero-section">
+    <div class="hero-circle"></div>
+    <div class="hero-circle-2"></div>
+    
+    <!-- Background headline -->
+    <div class="hero-headline">
+      <h1>We elevate<br>voices that<br>shape culture<br>building<br>influence &<br>impactful and<br>lasting legacy.</h1>
+    </div>
+
+    <div class="hero-content">
+      <span class="hero-text-left">WE ARE</span>
+      <div class="hero-image-wrapper">
+        <img src="images/hero_model.png" alt="Fashion Model" id="hero-img">
+      </div>
+      <span class="hero-text-right">DULCEDO®</span>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories" id="categories-section">
+    <div class="categories-list">
+      <div class="category-item" data-category="models">
+        <div class="category-stripe"></div>
+        <span class="category-text">MODELS <sup class="category-plus">(+)</sup></span>
+      </div>
+      <div class="category-item" data-category="influencers">
+        <div class="category-stripe"></div>
+        <span class="category-text">INFLUENCERS</span>
+      </div>
+      <div class="category-item" data-category="athletes">
+        <div class="category-stripe"></div>
+        <span class="category-text">ATHLETES</span>
+      </div>
+      <div class="category-item" data-category="entertainers">
+        <div class="category-stripe"></div>
+        <span class="category-text">ENTERTAINERS</span>
+      </div>
+      <div class="category-item" data-category="gamers">
+        <div class="category-stripe"></div>
+        <span class="category-text">GAMERS</span>
+      </div>
+    </div>
+
+    <!-- Hover image container -->
+    <div class="categories-image-container" id="categoryImageContainer">
+      <img src="images/model_hover.png" alt="Models" data-category="models">
+      <img src="images/influencer_hover.png" alt="Influencers" data-category="influencers">
+      <img src="images/athlete_hover.png" alt="Athletes" data-category="athletes">
+      <img src="images/entertainer_hover.png" alt="Entertainers" data-category="entertainers">
+      <img src="images/gamer_hover.png" alt="Gamers" data-category="gamers">
+    </div>
+
+    <p class="categories-desc fade-in">
+      DULCEDO® IS A FULL-SERVICE TALENT MANAGEMENT AGENCY WITH TEAMS AND OFFICES IN LOS ANGELES, NEW YORK CITY, MIAMI, TORONTO AND MONTREAL.
+    </p>
+  </section>
+
+  <!-- Featured Profiles -->
+  <section class="featured" id="featured-section">
+    <div class="section-header fade-in">
+      <span class="label">Featured</span>
+      <span class="title">PROFILES</span>
+    </div>
+
+    <div class="profiles-grid">
+      <div class="profile-card fade-in">
+        <img src="images/featured_1.png" alt="Sofia Laurent">
+        <div class="profile-overlay">
+          <div class="name">Sofia Laurent</div>
+          <div class="role">Model</div>
+        </div>
+      </div>
+      <div class="profile-card fade-in">
+        <img src="images/featured_2.png" alt="Maya Chen">
+        <div class="profile-overlay">
+          <div class="name">Maya Chen</div>
+          <div class="role">Influencer</div>
+        </div>
+      </div>
+      <div class="profile-card fade-in">
+        <img src="images/featured_3.png" alt="Elena Rivera">
+        <div class="profile-overlay">
+          <div class="name">Elena Rivera</div>
+          <div class="role">Model</div>
+        </div>
+      </div>
+      <div class="profile-card fade-in">
+        <img src="images/featured_4.png" alt="James Hart">
+        <div class="profile-overlay">
+          <div class="name">James Hart</div>
+          <div class="role">Entertainer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cast Your Profiles -->
+  <section class="cast-section" id="cast-section">
+    <div class="cast-content">
+      <div class="cast-header slide-in-left">
+        <h2>CAST YOUR<br>PROFILES</h2>
+        <p>Explore our diverse roster of exceptional talent, each bringing unique skills and presence to every project.</p>
+      </div>
+
+      <div class="cast-grid">
+        <div class="cast-card large slide-in-left">
+          <img src="images/cast_1.png" alt="Cast Profile">
+          <div class="cast-card-overlay">
+            <h3>Discover Talent</h3>
+            <p>Browse Profiles</p>
+          </div>
+        </div>
+        <div class="cast-black-card slide-in-right">
+          <h3>SEND US YOUR<br>PROFILES</h3>
+          <p>Submit your portfolio and join our world-class talent roster. We're always looking for the next big name.</p>
+          <a href="#" class="cast-btn">Submit Now →</a>
+        </div>
+        <div class="cast-black-card slide-in-right">
+          <h3>CAST YOUR<br>TALENT</h3>
+          <p>Find the perfect talent for your brand, campaign, or production with our curated casting tools.</p>
+          <a href="#" class="cast-btn">Start Casting →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  <section class="articles" id="articles-section">
+    <div class="section-header fade-in">
+      <span class="label">Latest</span>
+      <span class="title">ARTICLES</span>
+    </div>
+
+    <div class="articles-grid">
+      <div class="article-card fade-in">
+        <div class="article-image">
+          <img src="images/featured_1.png" alt="Article">
+        </div>
+        <div class="article-tag">Industry News</div>
+        <h3>The Evolution of Talent Management in the Digital Age</h3>
+        <div class="article-date">February 28, 2026</div>
+      </div>
+      <div class="article-card fade-in">
+        <div class="article-image">
+          <img src="images/featured_3.png" alt="Article">
+        </div>
+        <div class="article-tag">Fashion</div>
+        <h3>Spring 2026: Top Trends from the Runway to Your Wardrobe</h3>
+        <div class="article-date">February 25, 2026</div>
+      </div>
+      <div class="article-card fade-in">
+        <div class="article-image">
+          <img src="images/featured_2.png" alt="Article">
+        </div>
+        <div class="article-tag">Lifestyle</div>
+        <h3>Everyone Can Collaborate: Behind the Scenes with Our Talent</h3>
+        <div class="article-date">February 20, 2026</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer-brand">DULCEDO</div>
+    <div class="footer-links">
+      <a href="#">Talents</a>
+      <a href="#">Models</a>
+      <a href="#">Agency</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+    <div class="footer-bottom">
+      © 2026 DULCEDO®. All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
